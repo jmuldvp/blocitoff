@@ -38,19 +38,22 @@ end
 
 # added per mentor instruction
 group :test do
-  gem 'byebug', platform: :mri # in original files
+  # gem 'byebug', platform: :mri # in original files
 
   # gems added per instructor
-  gem 'rspec-rails'
+  # gem 'rspec-rails'
   gem 'shoulda'
   gem 'faker'
   gem 'factory_girl_rails'
   gem 'simplecov'
 end
 
-group :development do #, :test do
+group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+
+  gem 'rspec-rails'
+  gem 'rails-controller-testing'
 end
 
 group :development do
