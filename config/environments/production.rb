@@ -83,4 +83,16 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # from http://ianthro.com/add-email-confirmations-to-your-rails-app-1
+  config.action_mailer.default_url_options = {:host => 'yourdomain.com'}
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    :address => "127.0.0.1",
+    :port => 25,
+    :domain => 'yourdomain.com'
+  }
+
+  # per checkpoint 44 instructions
+  config.action_mailer.default_url_options = { host: 'frozen-reef-92175.herokuapp.com'}
 end
