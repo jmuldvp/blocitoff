@@ -1,3 +1,13 @@
 <h1>User Information</h1>
 <p>Find me in app/views/users/show.html.erb</p>
-<%= @user.email %>
+<div class="row">
+  <div class="col-md-4">
+    <div class="media">
+      <div class="media-body">
+        User Name: <%= @user.email %><br />
+        Sign in count: <%= @user.sign_in_count %><br />
+        Account created: <%= @user.created_at %>
+      </div>
+    </div>
+  </div>
+</div>
