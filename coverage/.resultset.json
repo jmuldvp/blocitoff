@@ -1,21 +1,23 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/appmin/code/blocitoff/spec/controllers/welcome_controller_spec.rb": [
+      "/Users/appmin/code/blocitoff/spec/controllers/items_controller_spec.rb": [
+        1,
+        null,
         1,
         null,
         1,
         1,
         1,
-        1,
-        1,
+        0,
         null,
         null,
         null,
         1,
         1,
         1,
-        1,
+        0,
+        null,
         null,
         null,
         null
@@ -576,6 +578,14 @@
         1,
         null
       ],
+      "/Users/appmin/code/blocitoff/app/helpers/items_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/appmin/code/blocitoff/app/helpers/users_helper.rb": [
+        1,
+        null
+      ],
       "/Users/appmin/code/blocitoff/app/helpers/welcome_helper.rb": [
         1,
         null
@@ -583,18 +593,35 @@
       "/Users/appmin/code/blocitoff/config/routes.rb": [
         1,
         1,
+        null,
         1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         1,
         null,
         1,
         null,
+        null,
+        null,
+        null,
+        null,
         1,
+        null,
+        null,
         null,
         null,
         null
       ],
       "/Users/appmin/code/blocitoff/app/models/user.rb": [
+        1,
         1,
         null,
         null,
@@ -609,8 +636,104 @@
         1,
         null
       ],
+      "/Users/appmin/code/blocitoff/app/controllers/items_controller.rb": [
+        1,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/appmin/code/blocitoff/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/appmin/code/blocitoff/spec/controllers/users_controller_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/appmin/code/blocitoff/app/controllers/users_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/appmin/code/blocitoff/spec/controllers/welcome_controller_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/appmin/code/blocitoff/app/controllers/welcome_controller.rb": [
         1,
+        1,
+        null,
         1,
         null,
         null,
@@ -621,7 +744,48 @@
         null,
         null
       ],
-      "/Users/appmin/code/blocitoff/app/controllers/application_controller.rb": [
+      "/Users/appmin/code/blocitoff/spec/helpers/items_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/appmin/code/blocitoff/spec/helpers/users_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/appmin/code/blocitoff/spec/models/item_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/appmin/code/blocitoff/app/models/item.rb": [
         1,
         1,
         null
@@ -632,8 +796,29 @@
         1,
         1,
         null
+      ],
+      "/Users/appmin/code/blocitoff/spec/views/items/create.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/appmin/code/blocitoff/spec/views/items/destroy.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/appmin/code/blocitoff/spec/views/users/show.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1472773124
+    "timestamp": 1473731546
   }
 }
