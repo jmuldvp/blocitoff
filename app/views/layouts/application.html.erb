@@ -18,6 +18,9 @@
           <ul class="nav navbar-nav">
             <li><%= link_to "Home", root_path %></li>
             <li><%= link_to "About", welcome_about_path %></li>
+            <% if user_signed_in? %>
+              <li><%= link_to "To-Do's", users_show_path %></li>
+            <% end %>
           </ul>
           <!-- <div class="nav navbar-nav navbar-right"> -->
           <div class="pull-right user-info">
@@ -32,7 +35,9 @@
         </div>
       </div>
     </div>
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
   <!-- <body>
     <div class="container">

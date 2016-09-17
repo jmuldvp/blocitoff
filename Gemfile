@@ -43,8 +43,6 @@ group :test do
   # gems added per instructor
   # gem 'rspec-rails'
   gem 'shoulda'
-  gem 'faker'
-  gem 'factory_girl_rails'
   gem 'simplecov'
 end
 
@@ -55,6 +53,8 @@ group :development, :test do
   gem 'pry-rails'
   gem 'rspec-rails'
   gem 'rails-controller-testing'
+  gem 'factory_girl_rails'
+  gem 'faker'
 end
 
 group :development do
