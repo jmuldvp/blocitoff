@@ -1,7 +1,6 @@
-<%= content_tag :div, class: 'media', id: "item-#{item.id}" do %>
-  <div class="media">
-    <div class="media-body">
-      <p><%= item.name %>
-    </div>
-  </div>
-<% end %>
+<tbody>
+  <%= content_tag :div, class: 'media', id: "item-#{item.id}" do %>
+    <td><%= item.name %></td>
+    <td><%= link_to "", [current_user, item], method: :delete, class: 'glyphicon glyphicon-ok' %></td>
+  <% end %>
+</tbody>
