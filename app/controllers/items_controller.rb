@@ -1,4 +1,6 @@
 class ItemsController < ApplicationController
+  respond_to :html, :js
+
   def create
     @user = current_user
     @item = @user.items.new(item_params)
@@ -14,11 +16,16 @@ class ItemsController < ApplicationController
     @item = @user.items.find(params[:id])
 
     if @item.destroy
-      respond_to do |format|
-        format.html
-        format.js
-      end
+      flash[:notice] = "Item has been completed!"
+    else
+      flash[:alert] = "There was an error completing the item. Try again."
     end
+
+    #  respond_to do |format|
+    #    format.html
+    #    format.js
+    #  end
+    respond_with(@user)
   end
 
   private
