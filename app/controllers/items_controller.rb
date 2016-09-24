@@ -21,11 +21,10 @@ class ItemsController < ApplicationController
       flash[:alert] = "There was an error completing the item. Try again."
     end
 
-    #  respond_to do |format|
-    #    format.html
-    #    format.js
-    #  end
-    respond_with(@user)
+    respond_to do |format|
+      format.html
+      format.js
+    end
   end
 
   private
