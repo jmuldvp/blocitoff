@@ -1,5 +1,4 @@
 class ItemsController < ApplicationController
-  respond_to :html, :js
 
   def create
     @user = current_user
