@@ -8,7 +8,7 @@
 User.create!( email: "user@user.com", password: "pas123", password_confirmation: "pas123", confirmed_at: Date.today)
 
 
-20.times do
+10.times do
   User.create!(
     email:                 Faker::Internet.email,
     password:              "pas123",
@@ -18,7 +18,7 @@ User.create!( email: "user@user.com", password: "pas123", password_confirmation:
 end
 users = User.all
 
-120.times do
+75.times do
   Item.create!(
     name: Faker::Company.bs, # I'd rather see this than Lorem ipsum
     user: users.sample
